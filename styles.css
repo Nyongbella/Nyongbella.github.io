@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* Valeta Wensloffs's CSS Document. 
+NOTE: You can replace my name with your name - this part up here is a CSS comment and is not telling the web browser to change the appearance of your html page(s). You could also put other things here, like the colors you picked for a quick reference. I like to do that so I can easily copy and paste the hex numbers when I need them. For Example:
+Dark Grey: #657486
+Black: #000000
+Red: #00476E
+Light Grey: #D1D3E8
+Dark Blue: #191970
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+	background-image:url(grey.jpg);
+
+}
+
+body {
+	width: 930px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: #000000;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: #0099CC;
+	-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+font-family:Verdana, Geneva, sans-serif;
+}
+
+h4 {
+	text-align: left;
+	color: #000000;
+}
+
+h3 {
+	color: #D1D3E8;
+	padding: 10px;
+	background-image:url(vertical_cloth.png);
+	text-align:left;
+	font-size:36px;
+}
+
+.show{
+	float:right;
+	width:250px;
+	height:200px;
+	padding:100px;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 0px;	
+}
+
+.red{
+	float:right;
+	width:250px;
+	height:200px;
+	padding:100px;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 0px;	
+}
+
+.comm{
+	float:right;
+	width:250px;
+	height:200px;
+	padding:100px;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 0px;	
+}
+
+a {
+  color: #853840;
+  font-weight: bold;
+}
+
+a:hover {
+	color: #04476E;
+	text-decoration: none;
+}
